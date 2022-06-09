@@ -9,7 +9,9 @@ import { Meal, RootObject } from '../models/recipe.model';
 })
 export class RecipeService {
   constructor(private http: HttpClient) {}
-  getRecipeData(){
-    return this.http.get<RootObject>(environment.recipeApiBaseUrl);
+  getRecipeData() {
+    return this.http.get<RootObject>(
+      'https://www.themealdb.com/api/json/v1/1/random.php'
+    );
   }
 }

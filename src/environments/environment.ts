@@ -3,8 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  recipeApiBaseUrl: 'https://www.themealdb.com/api/json/v1/1/random.php',
+  production: true,
 };
 
 /*
