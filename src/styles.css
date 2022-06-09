@@ -33,11 +33,19 @@ body {
   border-top-right-radius: 20px;
 }
 
+.upper-data img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .title {
   position: relative;
   display: flex;
+  text-align: center;
   align-items: center;
-  margin-top: 10%;
   justify-content: center;
   color: white;
   z-index: 1;
@@ -91,15 +99,6 @@ body {
 .hungry {
   font-weight: 900;
   font-size: 23px;
-}
-
-.food-img {
-  background-image: url(./assets/Food_Background.jpg);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 li {
