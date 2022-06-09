@@ -33,19 +33,11 @@ body {
   border-top-right-radius: 20px;
 }
 
-.upper-data img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .title {
   position: relative;
   display: flex;
-  text-align: center;
   align-items: center;
+  margin-top: 10%;
   justify-content: center;
   color: white;
   z-index: 1;
@@ -101,6 +93,15 @@ body {
   font-size: 23px;
 }
 
+.food-img {
+  background-image: url(https://www.aafoodservice.com/wp-content/themes/custom-theme/img/slider-v1704.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 li {
   margin-left: 22px;
 }
@@ -146,5 +147,8 @@ h4 {
   }
   h4 {
     font-size: 15px;
+  }
+  .recipe-title {
+    font-size: 22px;
   }
 }
