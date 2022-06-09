@@ -1,21 +1,20 @@
 <div class="container">
   <div class="upper-data">
-    <img src="../assets/Food_Background.jpg" alt="Food_Background" />
+    <img src="/../assets/Food_Background.jpg" alt="Food_Background" />
     <img src="" alt="" />
 
     <h1 class="title">Recipe Generator</h1>
   </div>
   <div class="lower-data">
-    <h2 class="lower-title"><span class="hungry">Feeling hungry?</span> Try the random recipe below! </h2>
-    <h3 class="lower-info">
-      Refresh page for a new recipe.
-    </h3>
+    <h2 class="lower-title">
+      <span class="hungry">Feeling hungry?</span> Try the random recipe below!
+    </h2>
+    <h3 class="lower-info">Refresh page for a new recipe.</h3>
     <div class="recipe-title">{{ recipeTitle }}</div>
     <div class="recipe-info">
       <div class="recipe-ingredients">
         <h4>Ingredients</h4>
-        <ul class="ingredients"  [innerHtml] = "htmlToAdd">
-        </ul>
+        <ul class="ingredients" [innerHtml]="htmlToAdd"></ul>
       </div>
       <div class="recipe-instructions">
         <h4>Instructions</h4>
